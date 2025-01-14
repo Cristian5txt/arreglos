@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+
 using namespace std;
 
 int main()
@@ -17,15 +17,15 @@ int main()
     cin>>notasp1[i];
     }
     for(int i=0; i<dimension;i++){
-    cout<<"LA NOTA "<<"["<<i<<"]_"<<"ES: "<<notasp1[i]<<endl;
+    cout<<"LA NOTA "<<"["<<i<<"]-"<<"ES: "<<notasp1[i]<<endl;
     }
     cout<< " "<<endl;
     cout<<"SU PRIMERA NOTA: "<<notasp1[0]<<endl;
 
     int promedio;
 
-    promedio = ((notasp1[0]*0.15)+(notasp1[1]*0.15))/dimension;
-
+    promedio = ((notasp1[0])+(notasp1[1])+(notasp1[2])+(notasp1[3])+(notasp1[4])+(notasp1[5]))/dimension;
     cout<< "SU VALOR DEL PROMEDIO ES: "<<promedio<<endl;
     return 0;
 }
+
